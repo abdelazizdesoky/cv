@@ -1,41 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Cairo', sans-serif;
+    background-color: #f4f7fc;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
     color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 header {
-    background: #333;
+    background-color: #0073e6;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
     text-align: center;
 }
 
-header h1 {
+.header-content h1 {
     margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
-section {
+.header-content p {
+    margin: 5px 0;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+}
+
+.section {
     margin: 20px 0;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #0073e6;
     padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #0073e6;
 }
 
 ul {
@@ -45,4 +55,15 @@ ul {
 
 ul li {
     padding: 5px 0;
+}
+
+.job h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.job p {
+    margin: 0;
+    color: #666;
 }
