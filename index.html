@@ -5,178 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Abdel Aziz Desoky Hassan</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <style>
         body {
-            font-family: 'Cairo', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             background-color: #f4f7fc;
             margin: 0;
             padding: 0;
             color: #333;
         }
 
-        #container {
-            display: flex;
+        .page {
             max-width: 1200px;
             margin: 20px auto;
-            gap: 20px;
-        }
-
-        #profile {
-            flex: 1;
-            background: #fff;
-            padding: 20px;
+            display: flex;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
         }
 
-        #image img {
-            width: 100%;
-            border-radius: 8px;
+        .top-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
         }
 
-        #name {
+        .name {
             font-size: 1.5rem;
+            text-transform: uppercase;
             font-weight: bold;
+        }
+
+        .side-bar {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            border-right: 2px solid #e6e6e6;
+        }
+
+        .content-container {
+            flex: 2;
+            padding: 20px;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+
+        .caps {
+            text-transform: uppercase;
+        }
+
+        .rela-block {
+            margin-bottom: 15px;
+        }
+
+        .title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .separator {
+            border-top: 2px solid #e6e6e6;
             margin: 10px 0;
         }
 
-        #designation {
+        .greyed {
+            color: #666;
+            font-weight: bold;
+        }
+
+        .long-margin {
+            margin-bottom: 20px;
+        }
+
+        .light {
             color: #555;
         }
 
-        #social-links a {
-            margin-right: 10px;
-            color: #333;
-            text-decoration: none;
+        .justified {
+            text-align: justify;
         }
 
-        #info-cards {
-            flex: 2;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+        .logo {
+            text-align: center;
+            margin-bottom: 15px;
         }
 
-        .card {
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .card p {
+        .logo-text {
+            font-size: 2.5rem;
+            color: #555;
             font-weight: bold;
-            margin-bottom: 10px;
         }
 
-        .card ul {
-            list-style: none;
-            padding: 0;
+        .list-thing {
+            padding-left: 10px;
         }
 
-        .card ul li {
-            margin-bottom: 10px;
+        .social {
+            margin: 5px 0;
         }
 
-        .tags {
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-        .edit {
-            float: right;
+        .mugshot img {
+            width: 100px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <div id="inner-nav"></div>
-    <div id="container">
-        <div id="profile">
-            <div id="image">
-                <img id="profile-photo" src="https://via.placeholder.com/150" alt="Profile-Image">
-                <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
-            </div>
-            <p id="name">Abdel Aziz Desoky Hassan<br><span id="email">a.desoky@outlook.com</span></p>
-            <p id="designation">IT - Technical Support<br><span id="college">Abohumad - Alsharqia, Egypt</span></p>
-            <div id="social-links">
-                <a href="#"><i class="fab fa-facebook-f stroke-transparent"></i></a>
-                <a href="#"><i class="fab fa-twitter stroke-transparent"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in stroke-transparent"></i></a>
-                <a href="#"><i class="fab fa-github stroke-transparent"></i></a>
-            </div>
-            <a id="edit-intro" href="#"><i class="fas fa-pen-alt blue"></i>&nbsp;&nbsp;Edit Intro</a>
-            <hr width="100%">
-            <div id="about">
-                <p style="display:inline;">About</p>
-                <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-            </div>
-            <p id="year-graduation">Date of Birth<br><strong>20 July 1988</strong></p>
-            <p id="education">Education<br><strong>Zagazig University, Educational Technology- Computer (2009) - Grade: Good</strong></p>
-            <p id="more-about">Marital Status<br><span>Married</span></p>
-            <p id="telephone">Telephone<br><strong>01065852424</strong></p>
-            <p id="fax">Military Service<br><strong>Performed</strong></p>
+    <div class="rela-block page">
+        <div class="rela-block top-bar">
+            <div class="caps name"><div class="abs-center">Abdel Aziz Desoky Hassan</div></div>
         </div>
-        <div id="info-cards">
-            <div class="card">
-                <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Work Experience</p>
-                <ul>
-                    <li>
-                        <p class="tags">2018-2022: Alarabia group, IT - Technical Support<br><span>New Infrastructure setup, Domain, ERP, Maintenance, Network, Printer troubleshooting</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">2015-2017: Compuland for Computer and System, IT - Help desk<br><span>Maintenance of systems, Network setup, and troubleshooting</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">2013-2015: Free Works<br><span>Maintenance & troubleshooting of Hardware Computer / Laptop and Network</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">2010-2011: Egyptian army, Computer Desk<br><span>MS Office, Printer document/report management</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                </ul>
-                <a href="#">+ Add work experience</a>
+        <div class="side-bar">
+            <div class="mugshot">
+                <img src="https://via.placeholder.com/100" alt="Profile Picture">
             </div>
-            <div class="card">
-                <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Certifications</p>
-                <ul>
-                    <li>
-                        <p class="tags">WordPress 2021<br><span>Knowledge of WordPress, Custom Theme Development, and Plugin Development</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">MCSA2012 / MCITP2008<br><span>Advanced Network and Server Management</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">Kaspersky Security Center 10<br><span>Server and Host Management</span></p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                </ul>
-                <a href="#">+ Add new certifications</a>
-            </div>
-            <div class="card">
-                <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Skills</p>
-                <ul>
-                    <li>
-                        <p class="tags">Problem-solving, Teamwork, Time Management, Communication Skills</p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">Computer (Hardware-Software), Network, System Camera</p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                    <li>
-                        <p class="tags">Printer troubleshooting, Security Systems</p>
-                        <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
-                    </li>
-                </ul>
-                <a href="#">+ Add new skills</a>
-            </div>
+            <p>Abohumad, Alsharqia, Egypt</p>
+            <p>01065852424</p>
+            <p>a.desoky@outlook.com</p><br>
+            <p class="rela-block social twitter">Twitter: @desoky</p>
+            <p class="rela-block social linked-in">LinkedIn: /in/desoky</p>
+            <p class="rela-block caps side-header">Expertise</p>
+            <p class="rela-block list-thing">Technical Support</p>
+            <p class="rela-block list-thing">Network Administration</p>
+            <p class="rela-block list-thing">System Maintenance</p>
+            <p class="rela-block list-thing">Troubleshooting</p>
+            <p class="rela-block caps side-header">Education</p>
+            <p class="rela-block list-thing">Zagazig University, Educational Technology - Computer (2009)</p>
+        </div>
+        <div class="rela-block content-container">
+            <h2 class="rela-block caps title">IT - Technical Support Specialist</h2>
+            <div class="rela-block separator"></div>
+            <div class="rela-block caps greyed">Profile</div>
+            <p class="long-margin">Highly skilled IT Technical Support Specialist with a strong background in network administration, system maintenance, and troubleshooting. Proven ability to set up and manage IT infrastructures, domain systems, and ERP solutions.</p>
+            <div class="rela-block caps greyed">Experience</div>
+
+            <h3>Alarabia Group (2018-2022)</h3>
+            <p class="light">IT - Technical Support</p>
+            <p class="justified">Set up new infrastructure, managed domain and ERP systems, and handled maintenance and troubleshooting for networks and printers.</p>
+
+            <h3>Compuland for Computer and System (2015-2017)</h3>
+            <p class="light">IT - Help Desk</p>
+            <p class="justified">Provided system maintenance, network setup, and troubleshooting support for various hardware and software issues.</p>
+
+            <h3>Free Works (2013-2015)</h3>
+            <p class="light">Freelance IT Specialist</p>
+            <p class="justified">Performed hardware and network troubleshooting for both computers and laptops, ensuring optimal performance.</p>
+
+            <h3>Egyptian Army (2010-2011)</h3>
+            <p class="light">Computer Desk</p>
+            <p class="justified">Managed MS Office tasks, printer documentation, and report management during military service.</p>
         </div>
     </div>
 </body>
