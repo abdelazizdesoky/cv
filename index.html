@@ -27,6 +27,23 @@
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/risen.css">
 
+	<style>
+.resume-skills-section ul {
+    display: flex;
+    flex-wrap: wrap; /* يسمح بانتقال العناصر إلى السطر التالي عند الحاجة */
+    gap: 5px; /* مسافة صغيرة بين البادجات */
+}
+
+.resume-skill-badge {
+    white-space: normal; /* يسمح بانتقال النص إلى سطر جديد داخل البادج */
+    word-wrap: break-word; /* يجبر النص على النزول إلى سطر جديد عند الحاجة */
+    max-width: 100%; /* يضمن عدم تجاوز العنصر عرض الحاوية */
+    display: inline-block; /* يحافظ على ترتيب العناصر داخل السطر */
+    overflow-wrap: break-word; /* يضمن عدم خروج الكلمات الطويلة خارج العنصر */
+}
+
+		</style>
+
 </head> 
 <body>
 	<div class="container-fluid">
