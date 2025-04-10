@@ -28,10 +28,10 @@
 ---
 
 ## 🛠️ Technical Skills
-💾 **Operating Systems:** Windows Server (2008-2016), Linux (Debian, Ubuntu, CentOS).  
-🌐 **Networking:** TCP/IP, VLAN, VPN, DHCP, DNS, Firewall Configuration (Sophos, pfSense).  
-☁️ **Virtualization & Cloud:** VMware ESXi, Docker, Kubernetes.  
-🖥️ **Programming & Databases:** PHP, Laravel, WordPress, MySQL, PostgreSQL.  
+💾 **Operating Systems:** Windows Server (2008-2016), Linux (Debian, Ubuntu).  
+🌐 **Networking:** TCP/IP, VLAN, VPN, DHCP, DNS, Firewall Configuration (Sophos).  
+☁️ **Virtualization & Cloud:** VMware ESXi, Docker.  
+🖥️ **Programming & Databases:** PHP, Laravel, WordPress, MySQL.  
 🔐 **Security & Compliance:** Endpoint Security, MDM, Network Hardening, Data Encryption.  
 🖨️ **Hardware & Infrastructure:** Printer Maintenance, CCTV Systems, Biometric Access Control.  
 
