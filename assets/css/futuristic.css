@@ -324,7 +324,7 @@ body.light-mode .hero-bg-text {
 .hero-content {
   position: relative;
   z-index: 5;
-  flex: 0.5;
+  flex: 0.1;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: end;
